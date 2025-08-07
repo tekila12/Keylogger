@@ -7,7 +7,7 @@ A keylogger  built for educational purposes to demonstrate system programming, n
 **⚠️ Ethical Disclaimer**: For educational use only in authorized environments (e.g., personal VMs). Unauthorized use is illegal and unethical. Use responsibly to learn cybersecurity concepts.
 
 ## Demo Video
-Watch the keylogger in action: [Demo Video](https://drive.google.com/file/d/1Y6MSUbnZyN2-xrn3Nvh0S-c0WZszP5kR/view?usp=sharing).
+Watch the keylogger in action: ![Demo Video](Keylogger.mp4).
 ## Features
 - **Silent Execution**: Runs without a console window on Windows using `ctypes`.
 - **System-Wide Keylogging**: Captures all keystrokes (requires admin privileges).
