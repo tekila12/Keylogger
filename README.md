@@ -7,10 +7,10 @@ A keylogger  built for educational purposes to demonstrate system programming, n
 **⚠️ Ethical Disclaimer**: For educational use only in authorized environments (e.g., personal VMs). Unauthorized use is illegal and unethical. Use responsibly to learn cybersecurity concepts.
 
 ## Demo Video
-Watch the keylogger in action: ![Demo Video](Keylogger.mp4).
+Watch the keylogger in action: ![Demo Video](Keylogger.gif).
 ## Features
 - **Silent Execution**: Runs without a console window on Windows using `ctypes`.
-- **System-Wide Keylogging**: Captures all keystrokes (requires admin privileges).
+- **System-Wide Keylogging**: Captures all keystrokes 
 - **Real-Time Logging**: Sends keystrokes instantly to the Linux listener via TCP socket.
 - **Command Support**: Handles `get_logs` for full keystroke history, `dir`, `whoami`, and `exit`.
 - **No Local Logs**: Stores data in memory for stealth, with no files saved on the target.
